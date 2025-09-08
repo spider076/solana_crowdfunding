@@ -1,0 +1,8 @@
+/home/kvpat/web3/projects/crowdfunding/anchor/target/x86_64-unknown-linux-gnu/debug/deps/libspl_token_group_interface-f920ea10620c0de0.rmeta: /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-group-interface-0.2.5/src/lib.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-group-interface-0.2.5/src/error.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-group-interface-0.2.5/src/instruction.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-group-interface-0.2.5/src/state.rs
+
+/home/kvpat/web3/projects/crowdfunding/anchor/target/x86_64-unknown-linux-gnu/debug/deps/spl_token_group_interface-f920ea10620c0de0.d: /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-group-interface-0.2.5/src/lib.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-group-interface-0.2.5/src/error.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-group-interface-0.2.5/src/instruction.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-group-interface-0.2.5/src/state.rs
+
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-group-interface-0.2.5/src/lib.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-group-interface-0.2.5/src/error.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-group-interface-0.2.5/src/instruction.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-group-interface-0.2.5/src/state.rs:

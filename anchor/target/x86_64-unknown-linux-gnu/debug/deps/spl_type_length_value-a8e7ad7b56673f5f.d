@@ -1,0 +1,9 @@
+/home/kvpat/web3/projects/crowdfunding/anchor/target/x86_64-unknown-linux-gnu/debug/deps/libspl_type_length_value-a8e7ad7b56673f5f.rmeta: /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/lib.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/error.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/length.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/state.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/variable_len_pack.rs
+
+/home/kvpat/web3/projects/crowdfunding/anchor/target/x86_64-unknown-linux-gnu/debug/deps/spl_type_length_value-a8e7ad7b56673f5f.d: /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/lib.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/error.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/length.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/state.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/variable_len_pack.rs
+
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/lib.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/error.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/length.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/state.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-type-length-value-0.4.6/src/variable_len_pack.rs:

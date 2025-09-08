@@ -1,0 +1,24 @@
+[toolchain]
+anchor_version = "0.30.1"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.devnet]
+crowdfunding = "FnBWfHQmw6o7igCF1NbScApEtJNesmqAPThKWT5RmbnS"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id1.json"
+
+[scripts]
+test = "../node_modules/.bin/jest --preset ts-jest"
+
+[test]
+startup_wait = 5000
+shutdown_wait = 2000
+upgradeable = false

@@ -1,0 +1,12 @@
+/home/kvpat/web3/projects/crowdfunding/anchor/target/x86_64-unknown-linux-gnu/debug/deps/libark_std-db94675f77c0c7a3.rmeta: /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/lib.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/io/mod.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/io/error.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/error.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/rand_helper.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/perf_trace.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/iterable/mod.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/iterable/rev.rs
+
+/home/kvpat/web3/projects/crowdfunding/anchor/target/x86_64-unknown-linux-gnu/debug/deps/ark_std-db94675f77c0c7a3.d: /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/lib.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/io/mod.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/io/error.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/error.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/rand_helper.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/perf_trace.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/iterable/mod.rs /home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/iterable/rev.rs
+
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/lib.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/io/mod.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/io/error.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/error.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/rand_helper.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/perf_trace.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/iterable/mod.rs:
+/home/kvpat/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/iterable/rev.rs:

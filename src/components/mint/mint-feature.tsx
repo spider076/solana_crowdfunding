@@ -1,0 +1,31 @@
+'use client'
+
+import { useWallet } from '@solana/wallet-adapter-react'
+import { WalletButton } from '../solana/solana-provider'
+import {  MintAirdrop, MintList } from './mint-ui'
+import { useExistingAccount } from '../crowdfunding/crowdfunding-data-access'
+
+export default function MintFeature() {
+  const wallet = useWallet()
+  const {campaignAccountQuery}=useExistingAccount()
+
+  return wallet && wallet.connected  && wallet.publicKey ? (
+    <div className='w-full h-full flex flex-col justify-between p-10 items-center'>
+      {!campaignAccountQuery.isPending && campaignAccountQuery.data
+      ? <>
+      <MintAirdrop wallet={wallet} mint = {campaignAccountQuery.data.mint}/>
+      <MintList wallet={wallet} mint = {campaignAccountQuery.data.mint}/>
+      </>
+      :<div className='flex h-96 justify-center items-center'>Campaign hasn&apos;t been created , Ask Admin to create !</div>
+      }
+    </div>
+  ) : (
+    <div className="max-w-4xl mx-auto">
+      <div className="hero py-[64px]">
+        <div className="hero-content text-center">
+          <WalletButton />
+        </div>
+      </div>
+    </div>
+  )
+}
