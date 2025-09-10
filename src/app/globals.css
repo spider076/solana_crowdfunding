@@ -4,42 +4,25 @@
 
 html,
 body {
-    height: 100%;
-    font-size: 12px;
+  height: 100%;
+  font-family: "Inter", sans-serif;
 }
 
 .wallet-adapter-button-trigger {
-    background: rgb(100, 26, 230) !important;
-    border-radius: 8px !important;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+  background: #5a67d8 !important;
+  border-radius: 9999px !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  font-weight: 600 !important;
+  color: white !important;
+  transition: background-color 0.3s ease;
 }
+
+.wallet-adapter-button-trigger:hover {
+  background: #4c51bf !important;
+}
+
 .wallet-adapter-dropdown-list,
 .wallet-adapter-button {
-    font-family: inherit !important;
-}
-
-
-.ps__rail-x,
-.ps__rail-y {
-  background-color: transparent !important;
-  z-index: 1; 
-}
-
-.ps__thumb-x {
-  background-color: #888;
-  height: 10px !important; 
-  border-radius: 5px;
-  min-width: 30px !important;
-}
-
-.ps__thumb-y {
-  background-color: #888;
-  width: 10px !important; 
-  border-radius: 5px;
-  min-height: 30px !important; 
-}
-
-.ps__thumb-y:hover {
-  background-color: #555;
+  font-family: inherit !important;
 }

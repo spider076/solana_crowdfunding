@@ -19,17 +19,20 @@ export function UiLayout({
 }) {
   const [showMenu, setShowMenu] = React.useState<boolean>(false);
   return (
-    <div className="h-full flex flex-col ">
-      <div className="navbar bg-base-300 text-neutral-content flex-col md:flex-row space-y-2 md:space-y-0">
-        <div className="flex justify-between w-full md:justify-normal md:flex-1">
-          <Link className="btn btn-ghost normal-case text-xl" href="/">
+    <div className="flex h-full flex-col bg-gray-900 text-white">
+      <div className="navbar text-neutral-content flex-col space-y-2 bg-gray-800 p-4 md:flex-row md:space-y-0">
+        <div className="flex w-full justify-between md:justify-normal md:flex-1">
+          <Link
+            className="btn btn-ghost normal-case text-xl text-white hover:bg-gray-700"
+            href="/"
+          >
             <img className="h-8" alt="Logo" src="/logo.png" />
           </Link>
           <div
             onClick={() => setShowMenu((prev) => !prev)}
             className="md:hidden"
           >
-            <TiThMenu className="" />
+            <TiThMenu className="text-white" />
           </div>
 
           <NavbarLinkList
@@ -42,10 +45,10 @@ export function UiLayout({
       <ClusterChecker>
         <AccountChecker />
       </ClusterChecker>
-      <div className="flex-grow mx-4 lg:mx-auto">
+      <div className="flex-grow">
         <Suspense
           fallback={
-            <div className="text-center my-32">
+            <div className="my-32 text-center">
               <span className="loading loading-spinner loading-lg"></span>
             </div>
           }
@@ -54,21 +57,6 @@ export function UiLayout({
         </Suspense>
         <Toaster position="bottom-right" />
       </div>
-      <footer className="footer footer-center p-2 md:p-4 bg-base-300 text-xs md:text-base-content">
-        <aside>
-          <p>
-            Created by{" "}
-            <a
-              className="link hover:text-white"
-              href="https://github.com/spider076/solana_crowdfunding"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              @Spider076
-            </a>
-          </p>
-        </aside>
-      </footer>
     </div>
   );
 }

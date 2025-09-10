@@ -32,69 +32,27 @@ const NavbarLinkList = ({
     <ul
       className={`${
         showMenu
-          ? "absolute w-screen h-[calc(100vh-130px)] md:w-[unset] md:h-[unset] bg-base-100 top-[70px] z-40 flex-col gap-4 w-full flex justify-center items-center"
-          : "hidden md:flex px-1 space-x-2 w-full items-center"
-      } gap-4 md:gap-16`}
+          ? "absolute top-[70px] z-40 flex h-[calc(100vh-130px)] w-screen flex-col items-center justify-center gap-4 bg-gray-800 md:w-[unset] md:h-[unset]"
+          : "hidden items-center space-x-2 px-1 md:flex w-full"
+      } gap-4 md:gap-8`}
     >
       {links.map(({ label, path }) => (
         <li key={path} onClick={() => setShowMenu(false)} className="">
           <Link
-            className={`  ${pathname.startsWith(path)} ? "active" : ""`}
+            className={`rounded-md px-3 py-2 text-sm font-medium transition-colors ${
+              pathname.startsWith(path)
+                ? "bg-gray-900 text-white"
+                : "text-gray-300 hover:bg-gray-700 hover:text-white"
+            }`}
             href={path}
           >
             {label}
           </Link>
         </li>
       ))}
-      {/* <li className="" onClick={(e) => e.stopPropagation()}>
-        <div className="dropdown dropdown-end relative hover:cursor-pointer">
-          <div tabIndex={0}>Company</div>
-          <ul
-            tabIndex={0}
-            className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 mt-4 absolute -left-28 top-10"
-          >
-            {companyLinks.map(({ label, path }) => (
-              <li key={path}>
-                <Link
-                  onClick={() => setShowMenu(false)}
-                  href={path}
-                  className={`btn btn-sm ${
-                    pathname.startsWith(path) ? "btn-primary" : "btn-ghost"
-                  }`}
-                >
-                  {label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </li>
-      <li className="" onClick={(e) => e.stopPropagation()}>
-        <div className="dropdown dropdown-end relative hover:cursor-pointer">
-          <div tabIndex={0}>Employee</div>
-          <ul
-            tabIndex={0}
-            className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 mt-4 absolute -left-28 top-10"
-          >
-            {employeeLinks.map(({ label, path }) => (
-              <li key={path}>
-                <Link
-                  onClick={() => setShowMenu(false)}
-                  href={path}
-                  className={`btn btn-sm ${
-                    pathname.startsWith(path) ? "btn-primary" : "btn-ghost"
-                  }`}
-                >
-                  {label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </li> */}
       <li className={`${showMenu ? " " : "ml-auto flex-1"}`}></li>
       <li>
-        <ul className="flex flex-col items-center md:flex-row gap-2">
+        <ul className="flex flex-col items-center gap-2 md:flex-row">
           <li className="" onClick={(e) => e.stopPropagation()}>
             <WalletButton />
           </li>
